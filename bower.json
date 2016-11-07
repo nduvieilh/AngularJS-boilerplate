@@ -1,0 +1,38 @@
+{
+    "name": "AngularJS-boilerplate",
+    "version": "0.1.0",
+    "description": "Bower JSON file for AngularJS-boilerplate adopted from John Papa's gulp-patterns",
+    "authors": [
+        "Nicky Duvieilh"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "devDependencies": {
+        "angular-mocks": "~1.5.8",
+        "sinon": "http://sinonjs.org/releases/sinon-1.12.1.js",
+        "bardjs": "~0.0.8"
+    },
+    "dependencies": {
+        "jquery": "~3.1.1",
+        "angular": "~1.5.8",
+        "angular-sanitize": "~1.5.8",
+        "angular-animate": "~1.5.8",
+        "angular-touch": "~1.5.8",
+        "ui-bootstrap": "~2.2.0",
+        "bootstrap": "~3.3.7",
+        "moment": "~2.15.2",
+        "angular-ui-router": "~0.3.1"
+    },
+    "overrides": {
+        "bootstrap": {
+            "main": "dist/css/bootstrap.css",
+            "dist": "dist/js/bootstrap.js"
+        }
+    }
+}

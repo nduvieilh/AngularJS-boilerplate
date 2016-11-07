@@ -57,6 +57,16 @@
 			}
 		}
 
+		// Run once per digest cycle
+		function doCheck() {
+
+		}
+
+		// Run after template is rendered
+		function postLink() {
+			
+		}
+
 
 
 		///   PRIVATE FUNCTIONS   ////////////////////////////////////
