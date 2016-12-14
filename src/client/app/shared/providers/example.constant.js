@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('app')
+		.module('app.shared')
 		.constant('EXAMPLE_CONST_NAME', 'constant value');
 		
 })(window.angular);

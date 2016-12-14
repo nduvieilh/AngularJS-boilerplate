@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('app')
+		.module('app.shared')
 		.service('exampleService', Service);
 
 	Service.$inject = [];

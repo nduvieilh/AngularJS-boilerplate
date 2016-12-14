@@ -14,7 +14,7 @@
 				'<div class="container-fluid">',
 					'<div ui-view="page"></div>',
 				'</div>'
-			].join('\n');
+			].join('\n')
 		}
 	}
 		

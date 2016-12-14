@@ -3,14 +3,14 @@
 
 	angular
 		.module('app.widget')
-		.component('widgetTwo', Directive);
+		.directive('widgetTwo', Directive);
 
 	Directive.$inject = [];
 
 	function Directive() {
 		var directive = {
 			restrict: 'E',
-			templateUrl: '/target/path/to/widget-two.html',
+			templateUrl: '/app/widget/widget-two.html',
 			link: Link,
 			controller: Controller,
 			controllerAs: '$ctrl',
@@ -19,7 +19,7 @@
 				data: '<',
 				data2: '=',
 				callback: '&'
-			}
+			},
 			require: {
 				widgetTwo: 'widgetTwo'
 			}

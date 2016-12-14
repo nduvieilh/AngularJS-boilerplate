@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('app')
+		.module('app.shared')
 		.factory('exampleTransform', Transform);
 
 	Transform.$inject = [];

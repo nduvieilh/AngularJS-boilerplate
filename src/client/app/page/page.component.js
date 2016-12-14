@@ -3,13 +3,13 @@
 
 	angular
 		.module('app.page')
-		.component('page', Component);
+		.component('page', Component());
 
 	Component.$inject = [];
 
 	function Component() {
 		var component = {
-			templateUrl: '/target/path/to/page.html',
+			templateUrl: '/app/page/page.html',
 			controller: Controller,
 			transclude: false,
 			bindings: {

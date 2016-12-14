@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('app')
+		.module('app.shared')
 		.provider('exampleProvider', Provider);
 
 	Provider.$inject = [];

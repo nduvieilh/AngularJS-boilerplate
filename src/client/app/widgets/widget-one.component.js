@@ -3,13 +3,13 @@
 
 	angular
 		.module('app.widget')
-		.component('widgetOne', Component);
+		.component('widgetOne', Component());
 
 	Component.$inject = [];
 
 	function Component() {
 		var component = {
-			templateUrl: '/target/path/to/widget-one.html',
+			templateUrl: '/app/widget/widget-one.html',
 			controller: Controller,
 			transclude: true,
 			bindings: {

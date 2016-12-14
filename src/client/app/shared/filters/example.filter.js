@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('app')
+		.module('app.shared')
 		.filter('example', Filter);
 
 	Filter.$inject = [];
